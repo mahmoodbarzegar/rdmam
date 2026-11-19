@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Yekan Bakh FaNum";
+    src:
+        url("../fonts/Yekan-Bakh-FaNum/woff/YekanBakhFaNum-Regular.woff")
+        format("woff2"),
+        url("../fonts/Yekan-Bakh-FaNum/woff2/YekanBakhFaNum-Regular.woff2")
+        format("woff"),
+        url("../fonts/Yekan-Bakh-FaNum/ttf/YekanBakhFaNum-Regular.ttf")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yekan Bakh bold";
+    src:
+        url("../fonts/Yekan-Bakh-FaNum/woff/YekanBakhFaNum-Bold.woff")
+        format("woff2"),
+        url("../fonts/Yekan-Bakh-FaNum/woff2/YekanBakhFaNum-Bold.woff2")
+        format("woff"),
+        url("../fonts/Yekan-Bakh-FaNum/ttf/YekanBakhFaNum-Bold.ttf")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yekan Bakh light";
+    src: url("../fonts/Yekan-Bakh-FaNum/woff/YekanBakhFaNum-Light.woff")
+    format("woff");
+    /*font-weight: 300;*/
+    /*font-style: normal;*/
+}
+
+@font-face {
+    font-family: "Dast Nevis";
+    src:
+        url("../fonts/Danstevis.woff2") format("woff2"),
+        url("../fonts/Danstevis.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("../fonts/Vazir.eot");
+    src:
+        url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    font-weight: normal;
+}
+
+* {
+    font-family: "Yekan Bakh FaNum", sans-serif;
+
+}
+
